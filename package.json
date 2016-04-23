@@ -1,0 +1,19 @@
+{
+  "name": "fcc-stock-market-project",
+  "version": "1.0.0",
+  "description": "FreeCodeCamp stock market project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "keywords": ["riot", "FreeCodeCamp", "yql"],
+  "author": "Alpha Shuro",
+  "license": "ISC",
+  "dependencies": {
+    "es6-promise": "^3.1.2",
+    "express": "^4.13.4",
+    "isomorphic-fetch": "^2.2.1",
+    "socket.io": "^1.4.5",
+    "underscore": "^1.8.3"
+  }
+}
