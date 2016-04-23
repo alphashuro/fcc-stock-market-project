@@ -1,0 +1,18 @@
+web:
+  build: .
+  command: 'bash -c ''node index.js'''
+  working_dir: /app/user
+  environment:
+    PORT: 80
+  ports:
+    - '8080:80'
+shell:
+  build: .
+  command: bash
+  working_dir: /app/user
+  environment:
+    PORT: 80
+  ports:
+    - '8080:80'
+  volumes:
+    - '.:/app/user'

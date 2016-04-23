@@ -1,0 +1,6 @@
+{
+  "name": "fcc-stock-market",
+  "description": "FreeCodeCamp Stock Market project",
+  "image": "heroku/nodejs",
+  "addons": []
+}
