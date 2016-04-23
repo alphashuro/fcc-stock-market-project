@@ -9,6 +9,7 @@
   "keywords": ["riot", "FreeCodeCamp", "yql"],
   "author": "Alpha Shuro",
   "license": "ISC",
+  "engine": "node 5.6.0",
   "dependencies": {
     "es6-promise": "^3.1.2",
     "express": "^4.13.4",
